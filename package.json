@@ -1,0 +1,24 @@
+{
+  "name": "aws-sdk-cloudformation",
+  "version": "1.0.0",
+  "description": "AWS SDK overwrited for allow best compatibility with Cloud Formation project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "cloudformation",
+    "sdk"
+  ],
+  "author": "Clement Kerneur",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.83.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  }
+}
